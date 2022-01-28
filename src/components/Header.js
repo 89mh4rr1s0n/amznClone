@@ -29,6 +29,7 @@ const Header = () => {
                 height={40}
                 objectFit='contain'
                 className='cursor-pointer'
+                alt=''
                 />
             </div>
             {/* search */}
@@ -48,12 +49,12 @@ const Header = () => {
                     <p>
                         {session ? `Hello, ${session.user.name}` : `Sign In`}
                     </p>
-                    <p className='font-bold md:text-sm'>Account & Lists</p>
+                    <p className='font-bold md:text-sm'>{`Account & Lists`}</p>
                 </div>
 
                 <div className='link'>
                     <p>Returns</p>
-                    <p className='font-bold md:text-sm'>& Orders</p>
+                    <p className='font-bold md:text-sm'>{`& Orders`}</p>
                 </div>
 
                 <div className='relative link flex items-center' onClick={() => router.push("checkout")}>
@@ -78,13 +79,13 @@ const Header = () => {
             </p>
             <p className='link'>Prime Video</p>
             <p className='link'>Amazon Business</p>
-            <p className='link'>Today's Deals</p>
+            <p className='link'>{`Today's Deals`}</p>
             <p className='hidden sm:inline-flex link'>Electronics</p>
-            <p className='hidden sm:inline-flex link'>Food & Grocery</p>
+            <p className='hidden sm:inline-flex link'>{`Food & Grocery`}</p>
             <p className='hidden sm:inline-flex link'>Prime</p>
             <p className='hidden md:inline-flex link'>Buy Again</p>
             <p className='hidden lg:inline-flex link'>Shopper Toolkit</p>
-            <p className='hidden lg:inline-flex link'>Health & Personal Care</p>
+            <p className='hidden lg:inline-flex link'>{`Health & Personal Care`}</p>
         </div>
     </header>
   </>)};

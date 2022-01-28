@@ -41,6 +41,7 @@ const ProductCard = (props) => {
       height={200}
       width={200}
       objectFit='contain'
+      alt=''
       />
 
       <h4 className='my-3'>{props.title}</h4>

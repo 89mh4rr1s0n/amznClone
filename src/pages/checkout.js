@@ -24,6 +24,7 @@ const Checkout = () => {
                 width={1020}
                 height={250}
                 objectFit="contain"
+                alt=''
                 />
 
                 <div className='flex flex-col mx-5 p-5 bg-white space-y-10  rounded-xl'>

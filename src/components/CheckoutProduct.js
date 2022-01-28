@@ -44,6 +44,7 @@ const CheckoutProduct = ({
     height={200}
     width={200}
     objectFit='contain'
+    alt=''
     />
 
     {/* middle */}
